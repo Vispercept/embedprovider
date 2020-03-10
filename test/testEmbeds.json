@@ -1,22 +1,37 @@
 [
   {
-    "expected":"vimeo",
-    "embedCode":"<iframe title=\"vimeo-player\" src=\"https://player.vimeo.com/video/336812660\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen></iframe>"
+    "expected": {
+      "provider": "vimeo",
+      "domain": "vimeo.com"
+    },
+    "embedCode": "<iframe title=\"vimeo-player\" src=\"https://player.vimeo.com/video/336812660\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen></iframe>"
   },
   {
-    "expected":"twitter",
-    "embedCode":"<blockquote class=\"twitter-tweet\"><p lang=\"de\" dir=\"ltr\">Die 5 Hogwarts-Häuser:<br><br>- Gryffindor <br>- Ravenclaw<br>- Hufflepuff<br>- Slytherin<br>- Deutsche Bahn <a href=\"https://t.co/kut4fp4CjO\">pic.twitter.com/kut4fp4CjO</a></p>&mdash; jasmin schreiber aka seeräuberbatman ಠ╭╮ಠ (@LaVieVagabonde) <a href=\"https://twitter.com/LaVieVagabonde/status/1220827388541534216?ref_src=twsrc^tfw\">January 24, 2020</a></blockquote> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
+    "expected": {
+      "provider": "twitter",
+      "domain": "twitter.com"
+    },
+    "embedCode": "<blockquote class=\"twitter-tweet\"><p lang=\"de\" dir=\"ltr\">Die 5 Hogwarts-Häuser:<br><br>- Gryffindor <br>- Ravenclaw<br>- Hufflepuff<br>- Slytherin<br>- Deutsche Bahn <a href=\"https://t.co/kut4fp4CjO\">pic.twitter.com/kut4fp4CjO</a></p>&mdash; jasmin schreiber aka seeräuberbatman ಠ╭╮ಠ (@LaVieVagabonde) <a href=\"https://twitter.com/LaVieVagabonde/status/1220827388541534216?ref_src=twsrc^tfw\">January 24, 2020</a></blockquote> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
   },
   {
-    "expected":"instagram",
-    "embedCode":"<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/B7rmlW4Ac1Y/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"12\" style=\" background:#FFF; font-size:14px; line-height:17px;\" datetime=\"2020-01-23T23:52:59+00:00\">Jan 23, 2020 um 3:52 PST</time></p></div></blockquote> <script async src=\"//www.instagram.com/embed.js\"></script>"
+    "expected": {
+      "provider": "instagram",
+      "domain": "instagram.com"
+    },
+    "embedCode": "<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/B7rmlW4Ac1Y/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"12\" style=\" background:#FFF; font-size:14px; line-height:17px;\" datetime=\"2020-01-23T23:52:59+00:00\">Jan 23, 2020 um 3:52 PST</time></p></div></blockquote> <script async src=\"//www.instagram.com/embed.js\"></script>"
   },
   {
-    "expected":"spotify",
-    "embedCode":"<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://open.spotify.com/embed/playlist/1n1jBJSrVAA3Keu2vVhGuW\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\" style=\"position: absolute;\"></iframe></div>"
+    "expected": {
+      "provider": "spotify",
+      "domain": "spotify.com"
+    },
+    "embedCode": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://open.spotify.com/embed/playlist/1n1jBJSrVAA3Keu2vVhGuW\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\" style=\"position: absolute;\"></iframe></div>"
   },
   {
-    "expected":"podigee",
-    "embedCode":"<script class=\"podigee-podcast-player\" src=\"https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js\" data-configuration=\"https://sz-magazin.podigee.io/embed?context=external\"></script>"
+    "expected": {
+      "provider": "podigee",
+      "domain": "podigee.com"
+    },
+    "embedCode": "<script class=\"podigee-podcast-player\" src=\"https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js\" data-configuration=\"https://sz-magazin.podigee.io/embed?context=external\"></script>"
   }
 ]
