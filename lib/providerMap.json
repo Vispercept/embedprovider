@@ -1,0 +1,10 @@
+[{
+  "from": {
+    "provider": "t",
+    "domain": "t.co"
+  },
+  "to": {
+    "provider": "twitter",
+    "domain": "twitter.com"
+  }
+}]

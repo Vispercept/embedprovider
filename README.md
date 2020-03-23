@@ -11,3 +11,20 @@ const result = embedprovider('<iframe title=\"vimeo-player\" src=\"https://playe
 console.log(result);
 // { provider: 'vimeo', domain: 'vimeo.com' }
 ```
+
+### Custom mapper
+```javascript
+const customProviderMap = [{
+  from: {
+    domain: 'mystr.com',
+    provider: 'mystr',
+  },
+  to: {
+    domain: 'servus.com',
+    provider: 'servus',
+  },
+}];
+const provider = embedprovider('<html><script src="https://asdfasdf.afdfasdfadf.mystr.com" /></html>', { customProviderMap }),
+console.log(provider)
+// { domain: 'servus.com', provider: 'servus' }
+```
